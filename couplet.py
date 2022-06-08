@@ -12,4 +12,5 @@ m = Model(
         output_dir='/data/dl-data/models/tf-lib/output_couplet',
         restore_model=False)
 
-m.train(5000000)
+# m.train(5000000)
+m.train(5)
